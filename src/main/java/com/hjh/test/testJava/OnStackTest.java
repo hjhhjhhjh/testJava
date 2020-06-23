@@ -1,7 +1,7 @@
 package com.hjh.test.testJava;
 
 /**
- * 栈上分配,逃逸分析(翻车了.....)
+ * 栈上分配,逃逸分析(翻车了...还是会GC)
  * VM Options:
  * -Xmx1050M -Xms500M -XX:+DoEscapeAnalysis
  * -XX:+PrintGC -XX:-UseTLAB
